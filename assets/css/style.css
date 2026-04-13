@@ -30,7 +30,7 @@
   --judges-base-rgb: 202, 166, 75;
 
   /* Dark Navy Blue (Logo Background) */
-  --judges-black: #0b1f3a;
+  --judges-black: #000000;
   --judges-black-rgb: 11, 31, 58;
 
   /* Light Background */
@@ -3113,7 +3113,7 @@ xs sidebar
 
 .main-menu-three .main-menu__list>li>a,
 .stricky-header.main-menu-three .main-menu__list>li>a {
-  color: var(--judges-black);
+  color: #caa64b;
 }
 
 .main-menu-three .main-menu__list>li.dropdown>a:after {
