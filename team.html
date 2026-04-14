@@ -64,7 +64,31 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 <style>
+.team-page .row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.team-one__single {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 15px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Ensure columns stretch equally */
+.team-page .col-xl-3,
+.team-page .col-lg-4,
+.team-page .col-md-6 {
+    display: flex;
+}.team-one__content {
+    margin-top: auto;
+    text-align: center;
+}
      .floating-contact {
   position: fixed;
   right: 15px;
@@ -570,12 +594,10 @@ Chennai – 600 001, Tamil Nadu, India.
             </div>
         </section>
         <!--Page Header End-->
-
-        <!--Team Page Start -->
+<!-- 
         <section class="team-page">
             <div class="container">
                 <div class="row">
-                    <!--Team One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="team-one__single">
                             <div class="team-one__content">
@@ -583,13 +605,7 @@ Chennai – 600 001, Tamil Nadu, India.
                                     <div class="team-one__shape-2"></div>
                                 </div>
                                 <h3 class="team-one__name"><a href="#">ADV M. Sivakumar</a></h3>
-                                <!-- <p class="team-one__sub-title">Attorney</p> -->
-                                <!-- <div class="team-one__social">
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                </div> -->
+                             
                             </div>
                             <div class="team-one__img-box">
                                 <div class="team-one__shape-box">
@@ -601,8 +617,6 @@ Chennai – 600 001, Tamil Nadu, India.
                             </div>
                         </div>
                     </div>
-                    <!--Team One Single End -->
-                    <!--Team One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="team-one__single">
                             <div class="team-one__content">
@@ -610,13 +624,7 @@ Chennai – 600 001, Tamil Nadu, India.
                                     <div class="team-one__shape-2"></div>
                                 </div>
                                 <h3 class="team-one__name"><a href="#">ADV P. Seeralan</a></h3>
-                                <!-- <p class="team-one__sub-title">Family Lawyer</p> -->
-                                <!-- <div class="team-one__social">
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                </div> -->
+                              
                             </div>
                             <div class="team-one__img-box">
                                 <div class="team-one__shape-box">
@@ -628,8 +636,6 @@ Chennai – 600 001, Tamil Nadu, India.
                             </div>
                         </div>
                     </div>
-                    <!--Team One Single End -->
-                    <!--Team One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="team-one__single">
                             <div class="team-one__content">
@@ -637,13 +643,7 @@ Chennai – 600 001, Tamil Nadu, India.
                                     <div class="team-one__shape-2"></div>
                                 </div>
                                 <h3 class="team-one__name"><a href="#">ADV Mohamed Ayaz Siddick</a></h3>
-                                <!-- <p class="team-one__sub-title">Criminal Lawyer</p> -->
-                                <!-- <div class="team-one__social">
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                </div> -->
+                              
                             </div>
                             <div class="team-one__img-box">
                                 <div class="team-one__shape-box">
@@ -655,8 +655,6 @@ Chennai – 600 001, Tamil Nadu, India.
                             </div>
                         </div>
                     </div>
-                    <!--Team One Single End -->
-                    <!--Team One Single Start -->
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="team-one__single">
                             <div class="team-one__content">
@@ -664,13 +662,7 @@ Chennai – 600 001, Tamil Nadu, India.
                                     <div class="team-one__shape-2"></div>
                                 </div>
                                 <h3 class="team-one__name"><a href="#"> ADV Sathis Babu</a></h3>
-                                <!-- <p class="team-one__sub-title">Financial Lawyer</p> -->
-                                <!-- <div class="team-one__social">
-                                    <a href="#"><span class="icon-pinterest"></span></a>
-                                    <a href="#"><span class="icon-linkedin"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
-                                </div> -->
+                            
                             </div>
                             <div class="team-one__img-box">
                                 <div class="team-one__shape-box">
@@ -682,13 +674,78 @@ Chennai – 600 001, Tamil Nadu, India.
                             </div>
                         </div>
                     </div>
-                    <!--Team One Single End -->
                   
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Team Page End -->
+<section class="team-page">
+    <div class="container">
+        <div class="row">
 
+            <!-- Team Member -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="team-one__single text-center">
+                    
+                    <div class="team-one__icon-box">
+                        <i class="fas fa-user-tie" style="font-size:60px; color:#c9a14a;"></i>
+                    </div>
+
+                    <div class="team-one__content">
+                        <h3 class="team-one__name"><a href="#">Advocate M. Sivakumar</a></h3>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Team Member -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="team-one__single text-center">
+                    
+                    <div class="team-one__icon-box">
+                        <i class="fas fa-user-tie" style="font-size:60px; color:#c9a14a;"></i>
+                    </div>
+
+                    <div class="team-one__content">
+                        <h3 class="team-one__name"><a href="#">Advocate P. Seeralan</a></h3>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Team Member -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="team-one__single text-center">
+                    
+                    <div class="team-one__icon-box">
+                        <i class="fas fa-user-tie" style="font-size:60px; color:#c9a14a;"></i>
+                    </div>
+
+                    <div class="team-one__content">
+                        <h3 class="team-one__name"><a href="#">Advocate Mohamed Ayaz Siddick</a></h3>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Team Member -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="team-one__single text-center">
+                    
+                    <div class="team-one__icon-box">
+                        <i class="fas fa-user-tie" style="font-size:60px; color:#c9a14a;"></i>
+                    </div>
+
+                    <div class="team-one__content">
+                        <h3 class="team-one__name"><a href="#">Advocate Sathis Babu</a></h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
   
          <!--Site Footer Start-->
          <footer class="site-footer">
